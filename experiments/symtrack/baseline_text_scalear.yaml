@@ -57,7 +57,6 @@ MODEL:
   FUSION:
     EMBED_DIM: 256  # The internal dimension for cross-attention
     NUM_HEADS: 8    # Number of heads in the attention module
-  # ----------------------------------------------
   EXTRA_MERGER: False
   RETURN_INTER: False
   BACKBONE:
@@ -99,8 +98,7 @@ TRAIN:
 
 
 TEST:
-  # EPOCH: 300
-  EPOCH: 5
+  EPOCH: 300
   SEARCH_FACTOR: 5.0
   SEARCH_SIZE: 384
   TEMPLATE_FACTOR: 2.0
@@ -108,8 +106,8 @@ TEST:
   TEMPLATE_NUMBER: 3
   MEMORY_THRESHOLD: 1000
 
-  USE_MULTI_SCALE: false            # 打开多尺度搜索
-  SCALE_FACTORS: [0.95, 1.0, 1.05] # 建议从较小范围开始搜索，逐步调参（±5%）
+  USE_MULTI_SCALE: false            
+  SCALE_FACTORS: [0.95, 1.0, 1.05] 
 
   USE_ASPECT_RATIO_PRIOR: false
   ASPECT_RATIO_BETA: 0.15
