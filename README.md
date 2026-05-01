@@ -38,8 +38,8 @@
 
 ## News
 
-- **[2026-XX-XX]** Code, models, and benchmarks are released.
-- **[2026-XX-XX]** SymTrack is accepted by **ICML 2026**.
+- **[2026-05-01]** Code, models, and benchmarks will be released.
+- **[2026-05-01]** SymTrack is accepted by **ICML 2026**.
 
 ## Overview
 
